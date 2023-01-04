@@ -14,8 +14,12 @@ e.g.
 
 `export BASE_URL=https://api.krakenflex.systems/interview-tests-mock-api/v1`
 
-Run the command `ts-node src/main.ts norwich-pear-tree` or
-`yarn build && node dist/src/main.js norwich-pear-tree`
+The main function accepts one argument; the siteId, this can be passed in via the CLI.
+
+To run the app run one of the following commmands:
+
+- `ts-node src/main.ts norwich-pear-tree`
+- `yarn build && node dist/src/main.js norwich-pear-tree`
 
 ## To run tests
 
